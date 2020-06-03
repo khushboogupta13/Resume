@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper .sidebar{
+  position:fixed;
+  width:300px;
+  height:100%;
+  background-color: #165F8C;
+  padding: 70px 0;
+}
+
+*{
+  margin:0;
+  padding:0;
+
+}
+
+.wrapper .sidebar h2{
+  text-align: center;
+  margin-bottom: 60px;
+  color:#FFFFFF;
+  font-size: 30px;
+
+}
+
+.wrapper .sidebar ul li{
+  text-align: center;
+  text-transform: uppercase;
+  padding:20px;
+  font-size: 25px;
+}
+
+.wrapper .sidebar ul li a{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+}
+.wrapper .sidebar ul li:hover{
+  background: #BDC7D9;
+}
+.wrapper .sidebar ul li:hover a{
+  color: #FFFFFF;
+}
+.wrapper .main_content{
+  margin-left: 350px;
+}
+.wrapper .main_content h2{
+  padding-top: 200px;
+  margin-bottom:3px;
+  font-size: 75px;
+  font-family: 'Teko', sans-serif;
+  color: #165F8C;
+}
+
+.wrapper .main_content .info{
+  color: #509BC7;
+  margin-bottom: 100px;
+  font-size: 20px;
+  margin-right: 60px;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.wrapper .main_content .contact_details{
+  color:#165F8C;
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-family: 'Teko', sans-serif;
+}
+.wrapper .main_content .social_media {
+  color:#165F8C;
+  font-size: 60px;
+}
+
+.Education{
+  margin-left: 350px;
+}
+section{
+
+  height: 100vh;
+}
+
+.edu .college{
+  padding-top: 40px;
+  margin-top: 40px;
+  color:#165F8C;
+  font-size: 40px;
+  font-family: 'Teko', sans-serif;
+}
+.details{
+  color:#509BC7;
+  font-size: 25px;
+  font-family: 'Teko', sans-serif;
+}
+.skills_page{
+  margin-left: 350px;
+}
